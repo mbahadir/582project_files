@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
 import requests
 import pandas as pd
 import numpy as np
@@ -14,8 +20,8 @@ import json
 
 URL = 'http://46.101.121.83'
 
-USERNAME = "your_user"
-PASSWORD = "your_password"
+USERNAME = "Miners"
+PASSWORD = "NsY7hhlU9zjl8DH3"
 submit_now = True  # Set this to True if you want to submit your predictions.
 
 
@@ -26,7 +32,7 @@ def predict():
     :return: A list of floats with length 24
     """
 
-  predictions = list(np.random.randint(low=0, high=1, size=2073))
+  predictions = list(y_pred.reshape(-1))
   ### YOUR CODE ENDS HERE
   print(predictions)  # Should be a dictionary of forecasts
   # i.e. {"id1" : forecast, "id2": forecast, ...}
@@ -88,7 +94,128 @@ if __name__ == "__main__":
   password = PASSWORD
   ### YOUR CODE ENDS HERE
   token = get_token(username, password)
-  prediction = predict()
-  send_submission(prediction, token, submit_now)
+  
 
 ### CODE BY THE TEACHING STAFF ENDS HERE - YOU DO NOT `NEED` TO CHANGE ###
+
+
+# In[7]:
+
+
+import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import Sequential
+from keras.layers import Flatten, LSTM
+from keras.layers import Activation, Dense
+from sklearn.model_selection import train_test_split
+import numpy as np
+
+
+# In[8]:
+
+
+df = pd.read_csv("C:/Users/bahad/GitHub/582project/bahadir/IE582_Fall20_ProjectTrain.csv")
+df['y'] = df['y'].astype("category").cat.codes
+
+
+# In[9]:
+
+
+# properties = list(df.columns.values)
+# properties.remove('y')
+# X = df[properties]
+# y = df['y']
+
+
+# In[10]:
+
+
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# model = Sequential()
+# model.add(Dense(60, activation='relu', input_shape=(60,)))
+
+# #model.add(Dense(32, activation='relu'))
+
+# model.add(Dense(16, activation='relu'))
+
+# model.add(Dense(1, activation='sigmoid'))
+
+# print(model.summary())
+
+# model.compile(optimizer='adam',
+#               loss='binary_crossentropy',
+#               metrics=['accuracy'])
+
+# model.fit(X_train, y_train, epochs=50, batch_size=4)
+
+# test_loss, test_acc = model.evaluate(X_test, y_test)
+# print('Test accuracy:', test_acc)
+
+
+# # For Normal Dataset
+
+# In[11]:
+
+
+final_test=pd.read_csv("C:/Users/bahad/GitHub/582project/bahadir/IE582_Fall20_ProjectTest.csv")
+
+
+# In[12]:
+
+
+properties = list(final_test.columns.values)
+properties.remove('y')
+X_test = final_test[properties]
+y_test = final_test['y']
+
+
+# In[13]:
+
+
+df['y'] = df['y'].astype("category").cat.codes
+properties = list(df.columns.values)
+properties.remove('y')
+X_train = df[properties]
+y_train = df['y']
+
+
+# In[23]:
+
+
+model = Sequential()
+model.add(Dense(60, activation='relu', input_shape=(60,)))
+
+model.add(Dense(32, activation='relu'))
+
+model.add(Dense(16, activation='relu'))
+
+model.add(Dense(16, activation='relu'))
+
+model.add(Dense(1))
+
+print(model.summary())
+
+model.compile(optimizer='adam',
+              loss='mean_squared_error',
+              metrics=['accuracy']
+             )
+
+model.fit(X_train, y_train, epochs=100, batch_size=8)
+
+
+# ## Prediction
+
+# In[32]:
+
+
+y_pred = model.predict_classes(X_test)
+
+
+# In[ ]:
+
+
+prediction = y_pred
+send_submission(prediction, token, submit_now)
+
