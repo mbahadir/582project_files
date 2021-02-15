@@ -182,7 +182,7 @@ random_forest
 
 random_forest$final
 
-plot(random_forestforest)
+plot(random_forest)
 
 pred_rf=predict(random_forest, data_test,type="prob")
 
