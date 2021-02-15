@@ -1,0 +1,2184 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=Windows-1254">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>IE 582 – DATA MINING</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Lucida Console";
+	panose-1:2 11 6 9 4 5 4 2 2 4;}
+@font-face
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+pre
+	{mso-style-link:"HTML Preformatted Char";
+	margin:0cm;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-link:"No Spacing Char";
+	margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-link:"HTML Preformatted";
+	font-family:"Courier New";}
+span.gnkrckgcgsb
+	{mso-style-name:gnkrckgcgsb;}
+span.NoSpacingChar
+	{mso-style-name:"No Spacing Char";
+	mso-style-link:"No Spacing";
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:0cm 70.9pt 0cm 70.9pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=TR link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNoSpacing align=center style='margin-top:77.0pt;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:0cm;text-align:center'><span lang=EN-US
+style='color:#4472C4'><img width=149 height=79 id="Picture 143"
+src="IE582_Project%20Report%20-%20Kopya_files/image001.png"></span></p>
+
+<div style='border-top:solid #4472C4 1.0pt;border-left:none;border-bottom:solid #4472C4 1.0pt;
+border-right:none;padding:6.0pt 0cm 6.0pt 0cm'>
+
+<p class=MsoNoSpacing align=center style='margin-bottom:12.0pt;text-align:center;
+border:none;padding:0cm'><span lang=EN-US style='font-size:36.0pt;font-family:
+"Calibri Light",sans-serif;color:#4472C4;text-transform:uppercase'>IE 582 –
+DATA MINING</span></p>
+
+</div>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><a
+name="_Hlk64222642"></a><span lang=EN-US style='font-size:14.0pt;color:#4472C4'>Final
+Project Report</span></p>
+
+<p class=MsoNoSpacing align=center style='margin-top:24.0pt;text-align:center'><span
+lang=EN-US style='color:#4472C4'><img width=80 height=50 id="Picture 144"
+src="IE582_Project%20Report%20-%20Kopya_files/image002.png"></span></p>
+
+<p class=MsoNoSpacing align=center style='margin-top:24.0pt;text-align:center'><span
+lang=EN-US style='color:#4472C4'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing align=center style='margin-top:24.0pt;text-align:center'><span
+lang=EN-US style='color:#4472C4'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing align=center style='margin-top:24.0pt;text-align:center'><span
+lang=EN-US style='color:#4472C4'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing align=center style='margin-top:24.0pt;text-align:center'><span
+lang=EN-US style='color:#4472C4'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='position:relative;z-index:251659264;left:-11px;
+top:0px;width:1898px;height:100px'><img width=1518 height=80
+src="IE582_Project%20Report%20-%20Kopya_files/image003.png"
+alt="FEBRUARY 15, 2021&#13;&#10;MINERS: MEHMET BAHADIR ERDEN – FATMA NUR DUMLUPINAR – UFUK ÜSTÜNDAĞ&#13;&#10;2016402000 - 2016402150 - 2017402060&#13;&#10;"></span><br
+clear=ALL>
+<span lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>TABLE OF CONTENTS</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>0)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>COVER PAGE</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>TABLE OF CONTENTS</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>INTRODUCTION</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>2.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Data Mining and its Applications</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>2.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Descriptive Analysis of the Data</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>2.3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Brief Summary of the Proposed Approach</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>RELATED LITERATURE</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1)    
+Models/Algorithms</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>           
+3.1.1) Decision Tree</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            3.1.2)
+Support Vector Machine</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            3.1.3)
+Random Forest</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            3.1.4)
+Stochastic Gradient Boosting</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            3.1.5)
+XGBoost</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            3.1.6)
+Model Training and Parameter Tuning with Caret Package in R</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.2)    
+Class Imbalance Problem</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;text-align:justify;
+text-indent:36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>3.2.1) Handling Class
+Imbalance Problem with Caret Package in R</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-indent:
+36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman",serif'>3.3)     Metrics</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.1)
+Accuracy</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.2)
+F1 Score</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.3)
+ROC AUC</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.4)
+PR AUC</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.5)
+BER</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify;text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3.6)
+Customized Metric in trainControl function of Caret Package in R</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>APPROACH</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.1)
+     Exploratory Analysis</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            4.1.1)
+Building Simple Models</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            4.1.2)
+Misclassification Analysis on Excel Sheet</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.2)
+     Advanced Analysis</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.3)      Performance
+Analysis</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.4)
+     Prediction and Manipulation</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>RESULTS</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>5.1)      Performance
+Scores Over Time</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>5.2)      Best
+Models and Best Score</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            5.2.1)
+Random Forest</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            5.2.2)
+Stochastic Gradient Boosting</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            5.2.3)
+XGBoosting</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            5.2.4)
+Best Score</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>6)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>CONCLUSION AND FUTURE WORK</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>6.1)      Conclusion</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>6.2)      Future
+Work</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='line-height:115%'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>7)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>REFERENCES</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='line-height:115%'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>8)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>CODE</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>INTRODUCTION</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>2.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Data Mining and its Applications</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Data mining is the process of extracting useful
+information from a large amount of raw data. This concept has increased its
+popularity rapidly around the world over the last decades and is widely used in
+many areas such as science and business. Some key applications of data mining
+can be listed as behavioral analysis of the data based on trends, prediction of
+outcomes, forecasting on future values, creation of decision based structures,
+analysis of big data, and clustering.<sup>1</sup> The purpose of this project
+is to use the sophisticated methods of data mining in order to analyze the
+given data effectively and making predictions for solving a binary
+classification problem for several instances.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>2.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Descriptive Analysis of the Data</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>The data provided for this task consists of two main
+parts, namely the train and test data. The train data includes 60 features for
+2074 instances and the binary target values for all these instances, whereas
+the test data lack the target values and contains 2073 instances for the same
+60 features. The main task is to develop a structure which learns from the
+train data and use it to predict the target values for the test data. It is
+helpful to remark that there might be too many features when compared to the
+number of instances which can give birth to models that learn the train data
+“too well”. In other words, overfitted models should be avoided since they may
+perform extremely well on the train data, however, poor on the test data.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Some other characteristics of the given data should be
+noticed before the analysis. Firstly, the features are unlabeled which makes it
+impossible to make a connection between the data and reality. This might be a
+disadvantage in terms of understanding its nature and foresee the usefulness of
+methods to be used. Also, the data has no missing values to deal with, which
+increases the ease of analysis. Another important point is that some features
+are continuous whereas some are binary variables just like the target value.
+Class imbalance is detected on the target values, namely the number of “a”s is
+about 3 times the number of b”s. Therefore, some methods may tend to favor “a”
+values, which is another danger for healthy predictions. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Furthermore, to achieve a better understanding about
+the data, statistics of the features are briefly analyzed by the skim function
+and correlation matrix, results of which can be found below. In addition,
+further analysis on continuous variables was carried out by the use of pandas
+profiling module. As a result, some features were found to be redundant and no
+significant abnormality nor difference was detected between the distributions
+of the train and test data.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><u><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Table
+1:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'> Skim Function on Train Data</span></p>
+
+<pre style='text-align:center;line-height:10.25pt;background:white;word-break:
+break-all'><span class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;
+font-family:"Lucida Console";color:black'>skim_variable n_missing complete_rate       mean       sd    p0   p25   p50   p75  p100 hist</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>* &lt;chr&gt;             &lt;int&gt;         &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>1 x1                    0             1  30.1        4.70    13    27    30     33    50  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;</span></span><span class=gnkrckgcgsb><span lang=EN-US
+style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9603;&#9607;&#9602;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>2 x2                    0             1   0.671      0.470    0     0     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9603;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>3 x3                    0             1   0.662      0.473    0     0     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9605;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>4 x4                    0             1   0.690      0.462    0     0     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9603;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>5 x5                    0             1   9.08       5.54     0     4     9     14    18  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9606;&#9607;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>6 x6                    0             1   8.99       5.61     0     4     9     14    18  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9605;&#9606;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>7 x7                    0             1   9.11       5.50     0     4     9     14    18  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9606;&#9607;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>8 x8                    0             1  30.2        5.60    13    26    30     34    49  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;</span></span><span class=gnkrckgcgsb><span lang=EN-US
+style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9605;&#9607;&#9603;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>9 x9                    0             1 101.        58.3      0.1  49.5 101.   153.  200  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9607;&#9607;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>10 x10                   0             1  99.7       57.7      0    49.2  99.6  150.  200. </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9607;&#9607;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>11 x11                   0             1  99.7       56.9      0.1  52.4  97.5  148.  200. </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9607;&#9607;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>12 x12                   0             1   0.343      0.475    0     0     0      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9605;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>13 x13                   0             1   0.0333     0.179    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>14 x14                   0             1 406.       118.      20   404   404    454   999  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;</span></span><span class=gnkrckgcgsb><span lang=EN-US
+style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9607;&#9603;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>15 x15                   0             1   0.850      0.358    0     1     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9602;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>16 x16                   0             1   0.113      0.316    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>17 x17                   0             1   0.239      0.426    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9602;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>18 x18                   0             1   0.0203     0.141    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>19 x19                   0             1   0.0444     0.206    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>20 x20                   0             1   0.0458     0.209    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>21 x21                   0             1   0.0284     0.166    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>22 x22                   0             1   0.0473     0.212    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>23 x23                   0             1   0.484      0.500    0     0     0      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>24 x24                   0             1   0.104      0.305    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>25 x25                   0             1   0.120      0.325    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>26 x26                   0             1   0.00820    0.0902   0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>27 x27                   0             1 128.        70.1     14    79   120    159   570  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9606;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>28 x28                   0             1   0.101      0.302    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>29 x29                   0             1   0.0342     0.182    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>30 x30                   0             1 636.       159.      62   562   624    812   999  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;&#9601;</span></span><span class=gnkrckgcgsb><span
+lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9607;&#9601;&#9603;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>31 x31                   0             1   0.0338     0.181    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>32 x32                   0             1 425.       147.     189   311   411    522   999  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9607;&#9603;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>33 x33                   0             1   0.0333     0.179    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>34 x34                   0             1   0.0598     0.237    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>35 x35                   0             1   0.0661     0.248    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>36 x36                   0             1  20.0       93.4      0     0     0      0   845  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>37 x37                   0             1   0.000482   0.0220   0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>38 x38                   0             1   0.142      0.349    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>39 x39                   0             1   0.124      0.330    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>40 x40                   0             1   0.124      0.330    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>41 x41                   0             1   0.737      0.441    0     0     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9603;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>42 x42                   0             1  10.5       73.3      0     0     0      0   999  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>43 x43                   0             1   0.0270     0.162    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>44 x44                   0             1   0.692      0.462    0     0     1      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9603;&#9601;&#9601;&#9601;&#9607;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>45 x45                   0             1   0.0603     0.238    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>46 x46                   0             1   0.00723    0.0848   0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>47 x47                   0             1   0.127      0.333    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>48 x48                   0             1   0.144      0.351    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9602;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>49 x49                   0             1   0.0101     0.100    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>50 x50                   0             1   0          0        0     0     0      0     0  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;&#9601;</span></span><span class=gnkrckgcgsb><span
+lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9607;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>51 x51                   0             1   0.105      0.307    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>52 x52                   0             1   0          0        0     0     0      0     0  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Cambria Math",serif;
+color:black'>&#9601;&#9601;</span></span><span class=gnkrckgcgsb><span
+lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";color:black'>&#9607;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>53 x53                   0             1   0.0863     0.281    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>54 x54                   0             1   0.320      0.467    0     0     0      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9603;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>55 x55                   0             1   0.0174     0.131    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>56 x56                   0             1   0.429      0.495    0     0     0      1     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9606;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>57 x57                   0             1   0.000964   0.0310   0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>58 x58                   0             1   0.142      0.349    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>59 x59                   0             1   0.00627    0.0789   0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>60 x60                   0             1   0.0313     0.174    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9601;</span></span></pre><pre
+style='text-align:center;line-height:10.25pt;background:white;word-break:break-all'><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"Lucida Console";
+color:black'>61 y                     0             1   0.245      0.430    0     0     0      0     1  </span></span><span
+class=gnkrckgcgsb><span lang=EN-US style='font-size:7.0pt;font-family:"MS Gothic";
+color:black'>&#9607;&#9601;&#9601;&#9601;&#9602;</span></span></pre><pre
+style='background:white;word-break:break-all'><span lang=EN-US
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></pre>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>                    
+</span><span lang=EN-US><img width=391 height=359 id="Resim 8"
+src="IE582_Project%20Report%20-%20Kopya_files/image004.jpg"></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+text-indent:36.0pt'><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Figure 1:</span></u><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+Correlation Matrix of Train Data</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:36.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
+width=569 height=357 id="Resim 1"
+src="IE582_Project%20Report%20-%20Kopya_files/image005.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><u><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>Figure
+2:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'> Sample Analysis on x1 by Pandas Profiling</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>2.3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Brief summary of the Proposed Approach</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>For the beginning of the analysis, it is planned to
+build simple models as exploratory moves in order to be able to comment on the
+nature of the data and target variable. Some of these simple models are
+logistic regression, penalized regression, and decision trees. During this
+procedure, the train data is divided into two parts randomly and the model is
+built on 80% of the data, whereas it is tested on the remaining 20%. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Afterwards, according to the performances of these
+simple models, more complicated models which are expected to provide better
+results were chosen. These models include random forest, stochastic gradient
+boosting, penalized decision tree, lasso regression, support vector machine,
+neural network, and more. The performance measures of these algorithms are
+calculated according to 10-fold cross validation and detailed parameter tuning
+with several repeats. The models and their parameters with the best
+performances are determined and run on the test data to make predictions. AUC
+values, balanced error rate, and specificity were used as the performance
+measures while evaluating the algorithms.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Finally, although the task in its nature is a binary classification
+problem, probability values between 0 and 1 were attained and submitted, where
+the target value “a” is represented by 0 and target value “b” by 1.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>RELATED
+LITERATURE</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Models/Algorithms </span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Decision
+Tree</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>A decision tree is a simple&nbsp;tree-like
+structure&nbsp;constituting nodes and branches. Data is split based on any of
+the input features at each node, generating two or more branches as output.
+This iterative process increases the number of generated branches and partitions
+the original data. This continues until a node is generated where all or almost
+all the data belong to the same class, and further splits&#8202;are no longer
+possible. Decision Tree algorithms are referred to
+as&nbsp;CART&nbsp;(Classification and Regression Trees).</span></p>
+
+<p class=MsoListParagraph style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Support
+Vector Machines</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:18.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%;background:white'><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black'>The
+objective of the support vector machine algorithm is to find a hyperplane in an
+N-dimensional space that distinctly classifies the data points. To separate the
+two classes of data points, there are many possible hyperplanes that could be
+chosen. Our objective is to find a plane that has the maximum margin, that is
+the maximum distance between data points of both classes. Maximizing the margin
+distance provides some reinforcement so that future data points can be
+classified with more confidence.</span></p>
+
+<p class=MsoListParagraph style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Random
+Forest</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:18.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%;background:white'><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black'>Random
+forest is another powerful and commonly used&nbsp;supervised
+learning&nbsp;algorithm. It is an&nbsp;ensemble algorithm&nbsp;that considers
+the results of more than one algorithm of the same or different kind of
+classification. It allows quick identification of significant information
+from&nbsp;vast datasets.&nbsp;The biggest advantage of random forest is that it
+relies on&nbsp;collecting various decision trees&nbsp;to arrive at any
+solution.</span></p>
+
+<p class=MsoListParagraph style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Stochastic
+Gradient Boosting</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Gradient Boosting Machine (for Regression and
+Classification) is a forward learning ensemble method. The guiding heuristic is
+that good predictive results can be obtained through increasingly refined
+approximations. The method helps to reduce the chances of getting stuck in
+local minimas, plateaus, and other irregular terrain of the loss function so
+that a near global optimum may be found.</span></p>
+
+<p class=MsoListParagraph style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>XGBoost</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:18.0pt;line-height:
+115%'><span lang=EN-US><a href="https://github.com/dmlc/xgboost"><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none'>XGBoost</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;stands
+for Extreme Gradient Boosting; it is a specific implementation of the Gradient
+Boosting method which uses more accurate approximations to find the best tree
+model. It computes:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>second-order gradients, i.e.&nbsp;second
+partial derivatives&nbsp;of the loss function, which provides more information
+about the direction of gradients and how to get to the minimum of our loss
+function. </span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>advanced&nbsp;regularization&nbsp;(L1
+&amp; L2), which improves model generalization.<sup>2</sup></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Training
+with XGBoost is very fast and can be parallelized / distributed across
+clusters.</span></p>
+
+<p class=MsoListParagraph style='margin-left:108.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.1.6)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Model
+Training and Parameter Tuning with Caret Package in R</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-indent:
+18.0pt;line-height:115%;background:white'><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:#333333;
+letter-spacing:.15pt'>The&nbsp;</span><span lang=EN-US style='color:black'><a
+href="http://cran.r-project.org/web/packages/caret/index.html"><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:#333333;letter-spacing:.15pt;text-decoration:none'>caret</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:#333333;letter-spacing:.15pt'>&nbsp;package has several functions that
+attempt to streamline the model building and evaluation process.
+The&nbsp;train&nbsp;function can be used to:</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#333333;text-align:justify;line-height:115%;
+     background:white'><span lang=EN-US style='font-size:12.0pt;line-height:
+     115%;font-family:"Times New Roman",serif;letter-spacing:.15pt'>evaluate,
+     using resampling, the effect of model tuning parameters on performance.</span></li>
+ <li class=MsoNormal style='color:#333333;text-align:justify;line-height:115%;
+     background:white'><span lang=EN-US style='font-size:12.0pt;line-height:
+     115%;font-family:"Times New Roman",serif;letter-spacing:.15pt'>choose the
+     “optimal” model across these parameters.</span></li>
+ <li class=MsoNormal style='color:#333333;text-align:justify;line-height:115%;
+     background:white'><span lang=EN-US style='font-size:12.0pt;line-height:
+     115%;font-family:"Times New Roman",serif;letter-spacing:.15pt'>estimate
+     model performance from a training set.</span></li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify;text-indent:18.0pt;line-height:
+115%;background:white'><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman",serif;color:#333333;letter-spacing:.15pt'>Once
+the model and tuning parameter values have been defined, the type of resampling
+should also be specified. Currently,&nbsp;</span><i><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black'>k</span></i><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman",serif;color:#333333;letter-spacing:.15pt'>-fold
+cross-validation (once or repeated), leave-one-out cross-validation and
+bootstrap resampling methods can be used by&nbsp;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black'>train</span><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman",serif;color:#333333;letter-spacing:.15pt'>.
+After resampling, the process produces a profile of performance measures is
+available to guide the user as to which tuning parameter values should be
+chosen.&nbsp;By default, the function automatically chooses the tuning
+parameters associated with the best value, although different algorithms can be
+used.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-indent:-36.0pt;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>3.2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Class Imbalance Problem</span></b></p>
+
+<p style='margin-top:0cm;text-align:justify;text-indent:18.0pt;line-height:
+115%;background:white'><span lang=EN-US style='color:black;background:white'>Class
+imbalance problem arises when the instance numbers of target classes are not
+equally distributed in classification problems. The reason why it is called a
+problem is that learning algorithms cannot show high performance for these
+classes. Some common methods to reduce the impact of this problem are:</span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:5.0pt;margin-left:36.0pt;
+text-indent:-18.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='color:black;background:white'>Class
+weights which up-weigh cases of the minority class and down-weigh the majority
+class. This is called&nbsp;</span><span lang=EN-US style='color:black'><a
+href="https://en.wikipedia.org/wiki/Inverse_probability_weighting"><span
+style='color:black;background:white;text-decoration:none'>Inverse Probability
+Weighting</span></a><span style='background:white'>&nbsp;(IPW).</span></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:5.0pt;margin-left:36.0pt;
+text-indent:-18.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='color:black;background:white'>Down-sampling
+which randomly reduces samples in the frequent class.</span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:5.0pt;margin-left:36.0pt;
+text-indent:-18.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='color:black;background:white'>Up-sampling
+which randomly replicates samples in the infrequent class.</span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:5.0pt;margin-left:36.0pt;
+text-indent:-18.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='color:black;background:white'>Synthetic
+minority sampling technique (SMOTE) which is down sampling the frequent class
+and merging new minority instances by interpolating between existing instances.<sup>3</sup></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.2.1)    Handling Class Imbalance Problem with Caret
+Package in R</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif;color:black;background:white'>Both weighting and
+sampling methods are easy to employ in caret. Incorporating weights into the
+model can be handled by using the weights argument in the&nbsp;train&nbsp;function
+while the sampling methods. This can be implemented using the sampling argument
+in the trainControl function.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>3.3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Metrics</span></b></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:36.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>A&nbsp;<i><u>true positive (TP)</u></i>&nbsp;occurs
+when the model&nbsp;correctly&nbsp;predicts the&nbsp;positive&nbsp;class.<br>
+A&nbsp;<i><u>true negative (TN)</u></i>&nbsp;occurs when the
+model&nbsp;correctly&nbsp;predicts the&nbsp;negative&nbsp;class.</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:36.0pt;line-height:115%;background:white'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>A&nbsp;<i><u>false positive (FP)</u></i>&nbsp;occurs
+when the model&nbsp;incorrectly&nbsp;predicts the&nbsp;positive&nbsp;class.<br>
+A&nbsp;<i><u>false negative (FN)</u></i>&nbsp;occurs when the
+model&nbsp;incorrectly&nbsp;predicts the&nbsp;negative&nbsp;class.</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>3.3.1)   Accuracy</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:11.25pt;text-align:justify;text-indent:
+36.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman",serif;color:black;background:white'>Accuracy
+measures how many observations, both positive and negative, were correctly
+classified. It should not be used on imbalanced problems because it is easy to
+get a high accuracy score by&nbsp;simply&nbsp;classifying all observations as
+the majority class.</span></p>
+
+<p class=MsoNormal style='margin-bottom:11.25pt;line-height:115%'><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+width=229 height=38 src="IE582_Project%20Report%20-%20Kopya_files/image006.png"></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.3.2)   F1 Score</span></b></p>
+
+<p class=MsoNormal style='text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>It combines precision and recall into one metric
+by calculating the harmonic mean between those two. It is a&nbsp;special case
+of&nbsp;the more general function&nbsp;F beta:</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+width=278 height=43 src="IE582_Project%20Report%20-%20Kopya_files/image007.png"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+background:white'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:11.25pt;text-align:center;
+line-height:115%'><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+position:relative;top:7.5pt'><img width=106 height=29
+src="IE582_Project%20Report%20-%20Kopya_files/image008.png"></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>        </span><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+position:relative;top:7.5pt'><img width=126 height=29
+src="IE582_Project%20Report%20-%20Kopya_files/image009.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:11.25pt;text-align:center;
+line-height:115%'><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+position:relative;top:7.5pt'><img width=126 height=29
+src="IE582_Project%20Report%20-%20Kopya_files/image010.png"></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>   </span><span
+lang=EN-US style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+position:relative;top:7.5pt'><img width=139 height=29
+src="IE582_Project%20Report%20-%20Kopya_files/image011.png"></span></p>
+
+<p class=MsoNormal style='text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>When choosing beta in your F-beta score&nbsp;the
+more you care about recall&nbsp;over precision&nbsp;the higher beta&nbsp;you
+should choose. For example, with F1 score we care equally about recall and
+precision with F2 score, recall is twice as important to us.</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.3.3)   ROC AUC</span></b></p>
+
+<p class=MsoNormal style='line-height:115%'><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black;
+background:white'>AUC means area under the curve, so ROC curve requires to be
+defined for ROC AUC score first.</span></p>
+
+<p class=MsoNormal style='text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>It is a chart that visualizes the tradeoff
+between true positive rate (TPR) and false positive rate (FPR). Basically, for
+every threshold, TPR and FPR are calculated and plotted on one chart.</span></p>
+
+<p class=MsoNormal style='text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>To get one number that tells us how good our
+curve is, we can calculate the Area Under the ROC Curve, or ROC AUC score. The
+more top-left your curve is the higher the area and hence higher ROC AUC score.</span></p>
+
+<p class=MsoNormal style='text-indent:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+background:white'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.3.4)   PR AUC</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>To define PR AUC, we need to define what
+Precision -Recall curve as in ROC AUC.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif;color:black;background:white'>It is a curve that
+combines precision (PPV) and Recall (TPR) in a single visualization. For every
+threshold, you calculate PPV and TPR and plot it. The higher on y-axis your
+curve is the better your model performance.</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.3.5)   BER</span></b></p>
+
+<p class=MsoNormal style='line-height:115%'><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black;
+background:white'>Balanced Error Rate is derived from Balanced Classification
+Rate which is:</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>BCR = ½ (TP / (TP + FN) + TN / (TN + FP))</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>BER = 1 - BCR</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:36.0pt;line-height:
+115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>3.3.6) Customized Metric in trainControl function of
+Caret Package in R</span></b></p>
+
+<pre style='text-align:justify;line-height:115%;vertical-align:baseline'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
+color:black;background:white'>               trainControl function has a parameter called summaryFunction.<sup>4</sup> A predefined performance measure function can be assigned to this parameter, so train function can create a model considering this customized metric. The metric is maximized if maximize parameter of train function is set to</span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'> TRUE.</span></pre>
+
+<p class=MsoNormal style='line-height:115%'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>APPROACH</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Exploratory Analysis</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>4.1.1)   Building Simple Models</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>The first approach to the problem was to measure the
+performances of several basic models in order to have an improved idea on the
+structure of the data in addition to the descriptive analysis. At this point,
+the train data was split randomly into two parts, which included 80% and 20% of
+the instances. The 80% part of the train data was used to train the models
+whereas tests were made on the other 20%. The algorithms initially used were
+logistic regression, penalized regression, and decision trees, however, more
+complicated ones such as random forest, stochastic gradient boosting, and
+penalized decision tree were also tried in a similar manner. The performance
+measures of these algorithms were compared to determine a road map for further
+analysis.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=624 height=52 id="Picture 12"
+src="IE582_Project%20Report%20-%20Kopya_files/image012.png"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+3:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Random Separation of Train Data to 80%
+and 20% Parts</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>            <b>4.1.2)   Misclassification Analysis on
+Excel Sheet</b></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Another way to deal with class imbalance and get
+better performance measures was the determination of problematic features. In
+this manner, the predictions on the 20% part of the train data and the real
+values were compared in an excel sheet. The instances where misclassifications
+occurred were examined in terms of algorithms used to build the models as well
+as the distributions of each feature at these instances. Afterwards, the
+feature mean values of misclassified data and the whole data were compared to detect
+the possible big changes for determining the features that cause
+misclassifications.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>The figure below may serve as an example for such an
+analysis. x54, which is a binary variable, has a mean of 0.23636 in the whole
+data whereas its mean decreases to 0.03509 in the misclassified instances. This
+sharp decrease signals the high tendency of the model to make errors when x54
+is zero. </span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=627 height=70 id="Picture 1"
+src="IE582_Project%20Report%20-%20Kopya_files/image013.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+4:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Determination of Problematic Features via
+Excel Sheet Analysis</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>            Additionally,
+the misclassified instances were compared in terms of the models used at these
+instances. It was noticed that usually different models made errors in similar instances.
+Different models were tried for the misclassified instances and combinations of
+different algorithms were used to improve the performance measures.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Advanced Analysis</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>After the exploratory analysis and having an idea on
+the detailed structure of the data, advanced analysis was made by 10-fold cross
+validation and detailed parameter tuning with repeats on the selected
+algorithms that gave the best performance measures. Some of the algorithms
+tried during exploratory analysis which were found beneficial, therefore run
+with repeated cross validation and parameter tuning were random forest and
+stochastic gradient boosting. In addition to these, other advanced algorithms,
+which included XGBoosting, support vector machines, and neural networks were tried
+during the advanced analysis as well. To deal with class imbalance, up and down
+sampling methods were applied, however, no improvement was detected.
+Furthermore, some models were run after a dimensionality reduction via PCA to 9
+principle components. The best models in terms of performance measures were
+detected and they were run on the test data for obtaining predictions. In
+addition, combinations of some different models were also applied to seek a
+better model. Predictions were submitted and further improvement was chased for
+according to the results.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=624 height=218 id="Picture 7"
+src="IE582_Project%20Report%20-%20Kopya_files/image014.png"
+alt="Graphical user interface, text, application&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+5:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Sample Neural Network Model</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Due to a misunderstanding of the task, initially,
+binary values were submitted instead of probabilities, which made it more
+difficult to get better scores and make advanced manipulations on the
+prediction values. However, after this problem was solved, higher scores were
+obtained and improvement was achieved via the manipulation of predictions.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Performance Analysis</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>While evaluating different model alternatives and
+selecting the best one among them, performance measures were checked as an
+indicator. For this purpose, a custom metric called “prime” was defined which took
+into account the AUC value, balanced error rate, and specificity. The models to
+make predictions on the test data were chosen according to the performance
+obtained by this metric.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=662 height=187 id="Picture 2"
+src="IE582_Project%20Report%20-%20Kopya_files/image015.png"
+alt="Text, application&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+6:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Custom Metric</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=574 height=289 id="Picture 6"
+src="IE582_Project%20Report%20-%20Kopya_files/image016.png"
+alt="Graphical user interface, text, email&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=569 height=265 id="Resim 13"
+src="IE582_Project%20Report%20-%20Kopya_files/image017.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+7:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Performance Measure Functions</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>4.4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Prediction and Manipulation</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>After the evaluation on the algorithms and selection
+based on the performance measures, the resulting models were run on the test
+data in order to get prediction values. At this point, average prediction
+outcomes of different models were also used instead of using the prediction
+values obtained only by a single model. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Finally, a manipulation on the resulting prediction
+values were applied before the submission step. The main purpose of this
+manipulation was to deal with the class imbalance problem by giving more weight
+to the prediction of “b”s (therefore 1 values as targets) since the models may
+favor target values with high cardinality, which is harmful for healthy
+predictions. Moreover, an arrangement based on threshold analysis was applied
+to the predictions for increasing the performances before the submission. This
+threshold analysis was made on an excel sheet carefully, an example of which
+can be found below.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Table
+2:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Sample Threshold Analysis</span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=412
+ style='width:309.2pt;border-collapse:collapse;border:none'>
+ <tr style='height:15.25pt'>
+  <td width=137 nowrap valign=bottom style='width:102.75pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'></td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  border-top:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>Accuracy for 0</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  border-top:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>Accuracy for 1</span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.35pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>BER</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.25pt'>
+  <td width=137 nowrap valign=bottom style='width:102.75pt;border:none;
+  border-left:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>No Manipulation</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,89456869</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,696078431</span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.35pt;border:none;
+  border-right:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,795324</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.25pt'>
+  <td width=137 nowrap valign=bottom style='width:102.75pt;border:none;
+  border-left:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>Threshold:35-25-20</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,773162939</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,862745098</span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.35pt;border:none;
+  border-right:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,817954</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.25pt'>
+  <td width=137 nowrap valign=bottom style='width:102.75pt;border:none;
+  border-left:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>Threshold:35-25</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,78913738</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,823529412</span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.35pt;border:none;
+  border-right:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,806333</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.25pt'>
+  <td width=137 nowrap valign=bottom style='width:102.75pt;border-top:none;
+  border-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;
+  border-right:none;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='color:black'>Threshold:35-22</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,766773163</span></p>
+  </td>
+  <td width=102 nowrap valign=bottom style='width:76.55pt;border:none;
+  border-bottom:solid windowtext 1.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,882352941</span></p>
+  </td>
+  <td width=71 nowrap valign=bottom style='width:53.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.25pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span lang=EN-US style='color:black'>0,824563</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>This sample threshold analysis indicates that better
+BER values could be obtained by setting the final submission value to 1, when
+one model predicts above 0.35 or two models predict above 0.22. Similar
+threshold analyses were carried out through the submission period after careful
+inspection.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=624 height=312 id="Picture 10"
+src="IE582_Project%20Report%20-%20Kopya_files/image018.png"
+alt="Graphical user interface, text, application&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+8:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Sample Threshold Manipulation #1</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=624 height=444 id="Picture 11"
+src="IE582_Project%20Report%20-%20Kopya_files/image019.png"
+alt="Text&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+9:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Sample Threshold Manipulation #2</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>RESULTS</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>5.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Performance Scores Over Time</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>As stated before, due to a misunderstanding in the
+task, binary variables were submitted initially at the beginning of the
+submission period as the final prediction values since the problem was a binary
+classification problem by its definition.  During this period, the highest
+score obtained was about 0.806 which increased up to 0.862 when probability
+values were submitted – therefore continuous values between 0 and 1 – instead
+of binary values. This change increased the performance scores drastically as
+well as it enabled to find improved submission values without trying new models
+but only by some manipulation on the predictions. As a result, a final score of
+0.894 was obtained until the end of submission period. </span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>5.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Best Models and Best Score</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>After a long and detailed analysis period as explained
+before, it was noticed that the highest performance measures were obtained by
+random forest, stochastic gradient boosting, and XGBoosting algorithms. In
+addition, 10-fold cross validation with detailed parameter tuning with
+repetitions provided the most beneficial results and reliable performance
+measures. The best models for the listed algorithms achieved by this manner are
+listed below.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>            <b>5.2.1)   Random Forest</b></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=434 height=46 id="Picture 8"
+src="IE582_Project%20Report%20-%20Kopya_files/image020.png"
+alt="Text&#10;&#10;Description automatically generated with low confidence"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=627 height=181 id="Resim 14"
+src="IE582_Project%20Report%20-%20Kopya_files/image021.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=422 height=351 id="Resim 15"
+src="IE582_Project%20Report%20-%20Kopya_files/image022.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+10:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Best Random Forest Model</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>5.2.2)   Stochastic
+Gradient Boosting</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=476 height=62 id="Picture 9"
+src="IE582_Project%20Report%20-%20Kopya_files/image023.png"
+alt="Text&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=626 height=76 id="Resim 16"
+src="IE582_Project%20Report%20-%20Kopya_files/image024.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=434 height=362 id="Resim 18"
+src="IE582_Project%20Report%20-%20Kopya_files/image025.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+11:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Best Stochastic Gradient Boosting Model</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>5.2.3)   XGBoosting</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=627 height=279 id="Resim 20"
+src="IE582_Project%20Report%20-%20Kopya_files/image026.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=558 height=117 id="Resim 19"
+src="IE582_Project%20Report%20-%20Kopya_files/image027.png"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=394 height=326 id="Resim 23"
+src="IE582_Project%20Report%20-%20Kopya_files/image028.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><span
+lang=EN-US><img border=0 width=398 height=314 id="Resim 22"
+src="IE582_Project%20Report%20-%20Kopya_files/image029.jpg"></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:115%'><u><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Figure
+12:</span></u><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'> Best XGBoost Model</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>5.2.4)   Best Score</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>Throughout the submission period, the best score
+attained was 0.8936, which was achieved via the combination of the prediction
+values obtained by running the three models listed above on the test data. The
+averages of these prediction sets were calculated and the resulting prediction
+set was finalized after some manipulation in a similar manner as explained
+before.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>CONCLUSION
+AND FUTURE WORK</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>6.1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Conclusion</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>In conclusion, through this project, data mining
+algorithms were used for the purpose of solving a binary classification
+problem. After the descriptive analysis and exploratory trials by the help of
+simple models, many different sophisticated models were trained on the train
+data and evaluated based on the specified performance measures. The most
+successful algorithms and parameters were selected after several repetitions of
+10-fold cross validations and parameter tuning processes. Afterwards, the
+selected models were run on the test data to obtain prediction values in
+probability format. Finally, these values were manipulated to deal with class
+imbalance and for the sake of getting better performance scores.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>As a result, random forest, stochastic gradient
+boosting, and XGBoosting methods performed well in terms of performance
+measures. A combination of predictions attained by these algorithms gave the
+best final score as 0.8936 after some adjustments and manipulations on the
+outcomes.</span></p>
+
+<p class=MsoListParagraph style='margin-left:72.0pt;text-align:justify;
+text-indent:-36.0pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>6.2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Future Work</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman",serif'>There exist many additional simple and complex
+approaches for further improvements. First of all, a similarity analysis might
+be carried out to see if there are any similar instances in terms of the values
+of their features. In case of the detection of such instances, some target
+values of the test data may be determined trivially. Additionally, improvements
+in scores might be sought for by analyzing past submissions and their scores
+since information is included there about the target values of the test data.
+Moreover, an advanced use of neural networks may result in far better
+performance measures. Due to the complex structure of neural networks, they are
+described as black box models and it’s difficult to analyze them, however, if
+such a sophisticated analysis is made higher scores can be accomplished. For
+increasing number of instances, methods such as data augmentation can also be
+tried to improved results. Finally, some complex algorithms which requires high
+computation time and performance can also be run as well as the collection of
+additional number of instances or features.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt;line-height:115%'><b><span lang=EN-US style='font-size:
+12.0pt;line-height:115%;font-family:"Times New Roman",serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>REFERENCES</span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:19.2pt;text-align:justify;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt;line-height:115%'><span lang=EN-US style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://economictimes.indiatimes.com/definition/data-mining"><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>https://economictimes.indiatimes.com/definition/data-mining</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="http://theprofessionalspoint.blogspot.com/2019/02/difference-between-gbm-gradient.html"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>http://theprofessionalspoint.blogspot.com/2019/02/difference-between-gbm-gradient.html</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://dpmartin42.github.io/posts/r/imbalanced-classes-part-1"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://dpmartin42.github.io/posts/r/imbalanced-classes-part-1</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span class=MsoHyperlink><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span lang=EN-US><a
+href="https://stackoverflow.com/questions/49984506/caretxgtree-there-were-missing-values-in-resampled-performance-measures"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://stackoverflow.com/questions/49984506/caretxgtree-there-were-missing-values-in-resampled-performance-measures</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify'><span
+class=MsoHyperlink><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif;color:windowtext;text-decoration:none'>&nbsp;</span></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify'><span
+class=MsoHyperlink><b><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif;color:windowtext;text-decoration:none'>Additional
+Resources:</span></b></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify'><span
+class=MsoHyperlink><b><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif;color:windowtext;text-decoration:none'>&nbsp;</span></b></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://datascience.stackexchange.com/questions/21954/which-is-better-out-of-bag-oob-or-cross-validation-cv-error-estimates"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://datascience.stackexchange.com/questions/21954/which-is-better-out-of-bag-oob-or-cross-validation-cv-error-estimates</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>6)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://rtemis.lambdamd.org/imbalanced.html"><span style='font-size:12.0pt;
+line-height:107%;font-family:"Times New Roman",serif'>https://rtemis.lambdamd.org/imbalanced.html</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>7)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://towardsdatascience.com/explicit-auc-maximization-70beef6db14e"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://towardsdatascience.com/explicit-auc-maximization-70beef6db14e</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>8)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://en.wikipedia.org/wiki/Receiver_operating_characteristic</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>9)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a
+href="https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc#1"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc#1</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>10)<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US><a
+href="https://cran.r-project.org/web/packages/caret/caret.pdf"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://cran.r-project.org/web/packages/caret/caret.pdf</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>11)<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US><a
+href="https://www.kaggle.com/pelkoja/visual-xgboost-tuning-with-caret"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://www.kaggle.com/pelkoja/visual-xgboost-tuning-with-caret</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>12)<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US><a
+href="https://stats.stackexchange.com/questions/326110/how-xgboost-uses-weight-in-the-algorithm"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://stats.stackexchange.com/questions/326110/how-xgboost-uses-weight-in-the-algorithm</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>13)<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US><a
+href="https://cran.r-project.org/web/packages/xgboost/xgboost.pdf"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://cran.r-project.org/web/packages/xgboost/xgboost.pdf</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>14)<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US><a
+href="https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gbm.html</span></a></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-align:justify'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:19.2pt;text-align:justify;
+text-indent:-19.2pt'><b><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>CODE</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>General Github Folder Link:  </span><span
+lang=EN-US><a href="https://github.com/mbahadir/582project_files"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Analysis Part</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Project%20Python%20Analysis.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Project%20Python%20Analysis.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Python Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Project%20Python%20Analysis.py"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Project%20Python%20Analysis.py</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Initial Models</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Initial%20Models.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Initial%20Models.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Initial%20Models.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Initial%20Models.r</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Codes for Imbalance Problem Solution</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook for models subsetted with feature
+selection: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Models%20subsetted%20with%20feature%20selection.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Models%20subsetted%20with%20feature%20selection.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script for models subsetted with feature
+selection: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Models%20subsetted%20with%20feature%20selection.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Models%20subsetted%20with%20feature%20selection.r</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Up/Down Sampling: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/up-down-sampling.R"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/up-down-sampling.R</span></a></span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Models with PCA method</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/IE582_final_project_PCA.R"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/IE582_final_project_PCA.R</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Simple Neural Netwok</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Simple%20Neural%20Netwok.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Simple%20Neural%20Netwok.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Python Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Simple%20Neural%20Netwok.py"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Simple%20Neural%20Netwok.py</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Created Numeric Model and Support
+Vector Machine</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Numeric%20Model%20Creation.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Numeric%20Model%20Creation.ipynb</span></a></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Numeric%20Model%20Creation.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Numeric%20Model%20Creation.r</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Selected Models after first control:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Selected%20Models.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Selected%20Models.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Selected%20Models.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Selected%20Models.r</span></a></span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>The Last Models Analysis:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/The%20Model-Analysis.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/The%20Model-Analysis.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/The%20Model-Analysis.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/The%20Model-Analysis.r</span></a></span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>The Last Models Submission:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>Notebook: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/The%20Model.ipynb"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/The%20Model.ipynb</span></a></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>R Script: </span><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/The%20Model.r"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/The%20Model.r</span></a></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><i><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Excel Files</span></i></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Feature Selection for Subsetting:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Feature%20Dataset%20Control.xlsx"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Feature%20Dataset%20Control.xlsx</span></a></span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'>Threshold Selection:</span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US><a
+href="https://github.com/mbahadir/582project_files/blob/main/Threshold%20Selection.xlsx"><span
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>https://github.com/mbahadir/582project_files/blob/main/Threshold%20Selection.xlsx</span></a></span></p>
+
+</div>
+
+</body>
+
+</html>
